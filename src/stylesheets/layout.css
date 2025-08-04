@@ -1,4 +1,4 @@
-/* ========== RESET & BASE STYLES ========== */
+/* RESET */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +16,7 @@ header, nav, main, aside, footer {
   padding: 1rem;
 }
 
-/* ========== MOBILE-FIRST LAYOUT ========== */
+
 .container {
   display: grid;
   grid-template-areas:
@@ -78,10 +78,10 @@ footer {
   background: #0D47A1;
   color: #bbdefb;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
-/* ========== TABLET LAYOUT (≥600px) ========== */
+/* TABLET L */
 @media (min-width: 600px) {
   body {
     font-size: 1.1rem;
@@ -112,7 +112,7 @@ footer {
   }
 }
 
-/* ========== DESKTOP LAYOUT (≥1024px) ========== */
+/*  DESKTOP */
 @media (min-width: 1024px) {
   .container {
     grid-template-areas:
@@ -133,6 +133,6 @@ footer {
 
   main,
   aside {
-    padding: 2rem;
+    padding: 3rem;
   }
 }
